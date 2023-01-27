@@ -20,5 +20,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  rules: { 'prettier/prettier': ['error', { endOfLine: 'auto' }] },
+  rules: {
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    '@typescript-eslint/no-empty-function': 'off',
+  },
 };
